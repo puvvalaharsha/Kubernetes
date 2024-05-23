@@ -7,12 +7,12 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/CloudTechDevOps/Kubernetes.git
+    repoURL: https://github.com/puvvalaharsha/Kubernetes.git
     targetRevision: HEAD
     path: day-14-argocd
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: hotstar
 
   syncPolicy:
     syncOptions:
